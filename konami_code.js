@@ -12,7 +12,6 @@ const codes = [
 ];
 
 function init() {
-  // window.alert("Hello world!");
   var index = 0;
   document.body.addEventListener("keydown", 
   function onKeyDownHandler(e) {
