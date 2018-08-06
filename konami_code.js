@@ -17,9 +17,9 @@ function init() {
   function onKeyDownHandler(e) {
   const key = e.key;
   if (key === codes[index]) {
-    console.log(index);
-    console.log(key);
+
     index++;
+        console.log(index);
     if (index === codes.length) {
       alert("Yahoo! Mountain Dew!");
         index = 0;
