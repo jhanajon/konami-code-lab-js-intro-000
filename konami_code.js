@@ -15,15 +15,16 @@ function init() {
   var index = 0;
   document.body.addEventListener("keydown", 
   function onKeyDownHandler(e) {
+    if (index === codes.length) {
+      alert("Yahoo! Mountain Dew!");
+        index = 0;
+    }
   const key = e.key;
   if (key === codes[index]) {
     console.log(index);
     console.log(key);
     index++;
-    if (index === codes.length) {
-      alert("Yahoo! Mountain Dew!");
-        index = 0;
-    }
+    
   } else {
     index = 0;
   }
