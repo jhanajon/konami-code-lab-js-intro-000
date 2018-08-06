@@ -21,7 +21,7 @@ function init() {
     index++;
         console.log(index);
     if (index === codes.length) {
-      alert("Yahoo! Mountain Dew!");
+      window.alert("Yahoo! Mountain Dew!");
         index = 0;
     }
   } else {
