@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  window.alert("Hello world!");
+  // window.alert("Hello world!");
   var index = 0;
   document.body.addEventListener("keydown", 
   function onKeyDownHandler(e) {
@@ -21,11 +21,12 @@ function init() {
     console.log(index);
     console.log(key);
     index++;
+  }
     if (index === codes.length) {
       window.alert("Yahoo! Mountain Dew!");
         index = 0;
     }
-  } else {
+   else {
     index = 0;
   }
     
