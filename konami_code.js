@@ -25,6 +25,7 @@ function init() {
         index = 0;
     }
   } else {
+    window.alert("No Dew!");
     index = 0;
   }
     
