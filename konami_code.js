@@ -19,13 +19,14 @@ function init() {
   if (key === codes[index]) {
     console.log(index);
     console.log(key);
+    window.alert("No Dew!");
     index++;
     if (index === codes.length) {
       window.alert("Yahoo! Mountain Dew!");
         index = 0;
     }
   } else {
-    window.alert("No Dew!");
+    
     index = 0;
   }
     
