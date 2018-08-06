@@ -18,9 +18,11 @@ function init() {
   const key = e.key;
   if (key === codes[index]) {
    
-    console.log(key);
+   
     index++;
+    
      console.log(index);
+      console.log(key);
     if (index === codes.length) {
       window.alert("Yahoo! Mountain Dew!");
         index = 0;
