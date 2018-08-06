@@ -12,10 +12,11 @@ const codes = [
 ];
 
 function init() {
+  var index = 0;
   document.body.addEventListener("keydown", 
   function onKeyDownHandler(e) {
   const key = e.key;
-  var index = 0;
+  
   if (key === codes[index]) {
     console.log(index);
     console.log(key);
