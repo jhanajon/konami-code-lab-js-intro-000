@@ -26,7 +26,6 @@ function init() {
         index = 0;
     }
   } else {
-    alert("nothing happened")
     index = 0;
   }
     
