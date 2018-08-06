@@ -12,10 +12,6 @@ const codes = [
 ];
 
 function init() {
-  // your code here
-  //enter code
-}
-
   function onKeyDownHandler(e) {
   const key = e.key;
   
@@ -30,3 +26,5 @@ function init() {
   }
     
   }
+}
+
