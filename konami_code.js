@@ -22,10 +22,9 @@ function init() {
     console.log(key);
     index++;
     if (index === codes.length) {
-     
+      window.alert("Yahoo! Mountain Dew!");
         index = 0;
     }
-     window.alert("Yahoo! Mountain Dew!");
   } else {
     index = 0;
   }
